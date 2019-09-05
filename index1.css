@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    background-color: rgb(235, 235, 235);
+}
+#mainmenu li{
+    display: inline;
+    list-style-type: none;
+    float: right;
+    
+}
+
+.w-100 {
+    width: 50%!important;
+    margin: auto;
+}
+   
+
+#mainmenu li a{
+    color: #000;
+    font-family: arial balck;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    padding: 22px 22px;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+nav,menu,ul{
+    width: 100%;
+    overflow: hidden;
+}
+nav#mainnav {
+    border-bottom: 3px solid black;
+    background: #ffffff;
+    position: sticky;
+    
+
+}
+#mainmenu li a:hover{
+    color: white;
+    background-color: rgb(88, 141, 18);
+}
+#mainmenu li a:active {
+    color: orange;
+}
+#center{
+    width: 1150px;
+    margin: auto;
+    display: block;
+}
+div#logo {
+    margin-bottom: -110px;
+}
+#mainmenu {
+    margin-bottom: 0px;
+    margin-top: 44px;
+}
+.tiger{
+    background-image: url(tiger.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+    margin-top: -200px;
+}
+.tiger h1, p {
+    margin: auto;
+    color: white;
+    width: fit-content;
+    font-family: arial black;
+}
+#name{
+    float: right;
+    margin-right: 19px;
+}
+.form{
+    border: 1px solid rgb(255, 255, 255);
+    width: 340px;
+    margin: 20px;
+    margin-left: 175px;
+    margin-top: 200px;
+}
+.form h3{
+    color: rgb(255, 255, 255);
+}
+#input{
+    width: 324px;
+    height: 52px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #93bd9e87;
+    color: #ffffff;
+}
+.form h2 {
+    text-align: center;
+    color: rgb(21, 247, 155);
+    margin-top: 10px;
+}
+#ggg{
+    width: 328px;
+    margin-left: 10px;
+    height: 41px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background: #69e039;
+    border-radius: 13px;
+}
+#input::placeholder{
+    color: rgb(255, 255, 255);
+}
+#maincontainer{
+   margin-top: 200px;
+   display: table;
+}
+.footer {
+    background-color: #7ece22;
+    height: 184px;
+    display: flex; 
+    margin-top: -100px;
+
+}
+.footer h1 {
+    text-align: center;
+    font-family: arial balck;
+    color: white;
+    display: block;
+    padding-left: 418px;
+    font-size: 56px;
+}

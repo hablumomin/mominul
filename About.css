@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    background-color: rgb(235, 235, 235);
+}
+#mainmenu li{
+    display: inline;
+    list-style-type: none;
+    float: right;
+    
+}
+
+
+   
+
+#mainmenu li a{
+    color: #000;
+    font-family: arial balck;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    padding: 22px 22px;
+    transition: all 1s;
+    transform: scale(1.1);
+}
+nav,menu,ul{
+    width: 100%;
+    overflow: hidden;
+}
+nav#mainnav {
+    border-bottom: 3px solid black;
+    background: #ffffff;
+   
+    
+
+}
+#mainmenu li a:hover{
+    color: white;
+    background-color: rgb(88, 141, 18);
+}
+#mainmenu li a:active {
+    color: orange;
+}
+#center{
+    width: 1150px;
+    margin: auto;
+    display: block;
+}
+#mainmenu {
+    margin-bottom: 0px;
+    margin-top: 44px;
+}
+div#logo {
+    margin-bottom: -110px;
+}
+#contain{
+    height: 250px;
+    background-color: #42886d;
+   
+}
+
+
+
+#contain .pic img {
+    width: 187px;
+    margin-left: 63px;
+    margin-top: 16px;
+}
+.details {
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-top: -172px;
+    margin-right: 786px;
+}
+.details h2{
+    /* margin-left: 0px; */
+    color: aqua;
+    margin-bottom: 17px;
+    margin-right: 53px;
+} 
+.details ul li{
+    color: #e6dcd5;
+    /* margin-right: 14px; */
+}
+.social {
+   
+float: right;
+   
+/* display: inline-table; */
+   
+margin-right: -794px;
+   
+margin-top: -230px;
+   
+width: 211px;
+   
+height: 163px;
+   
+display: grid;
+}
+.social h1{
+    color: #7bfeff;
+    font-family: arial black;
+    margin-bottom: 15px;
+}
+.social a{
+    color: white;
+    background-color: #00b30c;
+    margin-top: -5px;
+    padding: 8px;
+    width: 120px;
+    text-decoration: none;
+    border-radius: 9px;
+    transition:all 1s;
+    transform:scale(.9)
+}
+.social a:hover{
+    background: #FFC107;
+    color:black;
+    font-family:arial;
+    font-weight:500;
+}
+#mainbox{
+    width: 100%;
+    background-image: url('momin.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    background-position: left;
+}
+
+#mainbox .box {
+    background-color: #9e856abd;
+    height: 309px;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    margin: 36px;
+    border-radius:5px;
+}
+.mainbox #first{
+    margin-top: 30px;
+}
+#mainbox .box:hover{
+    background-color: rgba(206, 206, 206, 0.31);
+}
+.box h2{
+    text-align: center;
+    color: rgb(123, 248, 133);
+    font-size: 30ppx;
+    margin-top:50px;
+    font-family:arial black
+
+}
+.box ul li{
+    color: #000;
+    text-align: center;
+    margin-top:5px;
+    font-family:arial black
+
+    
+}
+.box ul{
+    margin-top:20px
+}
+.footer {
+    background-color: #7ece22;
+    height: 184px;
+    display: flex;
+}
+.footer h1 {
+    text-align: center;
+    font-family: arial balck;
+    color: white;
+    display: block;
+    padding-left: 418px;
+    font-size: 56px;
+}
